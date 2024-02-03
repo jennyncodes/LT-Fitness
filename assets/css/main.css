@@ -20,8 +20,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #f85a40;
-  --color-secondary: #db714a;
+  --color-primary: #C04BC6;
+  --color-secondary: #0CC0DF;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #A8CF45;
   text-decoration: none;
 }
 
