@@ -1,0 +1,50 @@
+.wellness-section {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/FamilyFitness/wellness.jpg");
+    background-size: cover;
+    opacity: 70%;
+    width:100%;
+    height: 80vh;
+}
+.intro {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .intro .intro-img {
+      width: 75%;
+      float: right;
+    }
+    .intro .intro-text {
+      left: 0;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute;
+    }
+    .intro .intro-text .intro-button {
+      width: 100%;
+      left: 0;
+      position: absolute;
+      bottom: -2rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .intro .intro-text {
+      width: 45%;
+    }
+  }
+  
+  .bg-faded {
+    background-color: #ffffff;
+  }
+
+
+.wellness-section .text-box{
+    font-family: var(--font-primary);
+    background-color: white;
+    opacity: 90%;
+    display:inline-block;
+    width:100%;
+    margin: 10px;
+    padding: 20px;
+    justify-content: right;
+}
