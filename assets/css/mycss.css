@@ -1,3 +1,18 @@
+
+
+.training-section img{
+    width:100%;
+    height:40vh;
+    object-fit:cover;   
+}
+
+.signup .member img {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+
+
 .wellness-section {
     background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/FamilyFitness/wellness.jpg");
     background-size: cover;
@@ -37,14 +52,23 @@
     background-color: #ffffff;
   }
 
-
-.wellness-section .text-box{
-    font-family: var(--font-primary);
+#wellness-description, .wellness-description {
+    color: var(--default-color);
     background-color: white;
-    opacity: 90%;
-    display:inline-block;
-    width:100%;
-    margin: 10px;
-    padding: 20px;
-    justify-content: right;
+    padding: 60px 0;
+    overflow: clip;
 }
+
+.wellness-description .section-header h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  
+  }
+
+  .wellness-section .intro-button a{
+    background-color: #cb9af1;
+    border-color: #d390fd;
+  }
