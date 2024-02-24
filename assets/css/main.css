@@ -730,6 +730,45 @@ section {
   border-left: 15px solid var(--color-primary);
   transform: scale(20);
 }
+
+/* .about .read-more-btn{
+    background-color: #f6725e;
+    color: whitesmoke;
+    padding: 1em 2em 1em 2em;
+    border-radius: 50em;
+    text-align: center;
+ 
+} */
+
+.about .read-more-btn{
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  background: #f6725e;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.about .read-more-btn:hover {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: whitesmoke;
+  background:var(--color-third);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
 /*--------------------------------------------
 #DESCRIPTION SECTION 
 -----------------------------------------------*/
@@ -1827,11 +1866,13 @@ section {
   .hero h2 {
     font-size: 36px;
   }
-
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 14px;
+  
+  .hero{
+    margin-bottom: 10px;
+    padding-bottom: 40px;
   }
+
+
 }
 
 .hero .icon-boxes {
