@@ -1014,11 +1014,11 @@ section {
     background-color: white;
 }
 
-#description.description p{
+#description.description .col-lg-6 p{
     color: black;
 }
 
-#description.description h2{
+#description.description  h2{
     color: black;
 }
   
@@ -1952,7 +1952,6 @@ section {
 }
 
 #hero.hero p {
-    font-weight: bold;
     color: white;
 }
 
