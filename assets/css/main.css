@@ -958,6 +958,8 @@ section {
   border-color: var(--color-third);
 }
 
+
+
 /*--------------------------------------------
 #DESCRIPTION SECTION 
 -----------------------------------------------*/
@@ -1005,6 +1007,20 @@ section {
   .description img{
     width:90%;
   }
+
+#description.description{
+    
+    color: black;
+    background-color: white;
+}
+
+#description.description p{
+    color: black;
+}
+
+#description.description h2{
+    color: black;
+}
   
 
   /*--------------------------------------------------------------
@@ -1933,6 +1949,11 @@ section {
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
   color: #fff;
+}
+
+#hero.hero p {
+    font-weight: bold;
+    color: white;
 }
 
 
