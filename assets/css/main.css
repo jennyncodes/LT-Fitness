@@ -1935,13 +1935,13 @@ section {
   color: #fff;
 }
 
-#hero.hero p {
+#hero .hero p {
     color: white;
 }
 
 .hero .icon-image img{
-  width:100%;
-  height:45vh;
+  max-width:100%;
+  height:auto;
 }
 
 
@@ -2215,101 +2215,47 @@ section {
 }
 
 
-
 /*--------------------------------------------------------------
 # Wellness Section
 --------------------------------------------------------------*/
 
-.wellness-section {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/FamilyFitness/wellness.jpg");
-  background-size: cover;
-  opacity: 80%;
+.hero .wellness-image .img-fluid{
   width:100%;
-  height: 80vh;
+  height:55vh;
 }
 
-#wellness-description, .wellness-description {
-  color: var(--default-color);
-  background-color: white;
-  padding: 60px 0;
-  overflow: clip;
+/*--------------------------------------------------------------
+# Birthday Section
+--------------------------------------------------------------*/
+
+
+.birthday-packages .birthday-container .package{
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+
 }
 
-.wellness-description .section-header h2{
-  font-size: 28px;
+.birthday-packages .section-header h2{
+  font-size: 30px;
   font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
   position: relative;
 
 }
 
-.wellness-section .intro-button a{
-  font-family: var(--font-primary);
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 30px;
-  border-radius: 50px;
-  transition: 0.3s;
-  color: #fff;
-  background: #d965f3;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-  border: 2px solid rgba(255, 255, 255, 0.1);
 
+
+.birthday-container .package p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #6c757d;
 }
 
-.wellness-section .intro-button a:hover{
-  font-family: var(--font-primary);
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 30px;
-  border-radius: 50px;
-  transition: 0.3s;
-  color: whitesmoke;
-  background:var(--color-secondary);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-  border: 2px solid rgba(255, 255, 255, 0.1);
 
-}
 
-.intro {
-  position: relative;
-}
-.intro .intro-text {
-  left: 0;
-  width: 60%;
-  margin-top: 3rem;
-  position: absolute;
-}
 
-@media (min-width: 992px) {
-  .intro .intro-img {
-    width: 75%;
-    float: right;
-  }
-  .intro .intro-text {
-    left: 0;
-    width: 60%;
-    margin-top: 3rem;
-    position: absolute;
-  }
-  .intro .intro-text .intro-button {
-    width: 100%;
-    left: 0;
-    position: absolute;
-    bottom: -2rem;
-  }
-}
-@media (min-width: 1200px) {
-  .intro .intro-text {
-    width: 45%;
-  }
-}
-
-.bg-faded {
-  background-color: #ffffff;
 }
