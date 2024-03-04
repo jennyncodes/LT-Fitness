@@ -1935,7 +1935,7 @@ section {
   color: #fff;
 }
 
-#hero .hero p {
+#hero.hero p {
     color: white;
 }
 
